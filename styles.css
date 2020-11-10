@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: aliceblue;
+}
+
+.container{
+    position: relative;
+    margin: 35px auto;
+    width: 80%;
+    height: 700px;
+    background-image: url(newYear.jfif);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .countdown-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 350px;
+    background: rgba(10, 105, 50, 0.5);
+    margin-top: 200px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.countdown-container .header{
+    letter-spacing: 7px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.countdown .big-text{
+    font-size: 80px;
+    padding: 10px;
+}
+
+.c{
+    text-align: center;
+    font-size: 20px;
+}
